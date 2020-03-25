@@ -2,11 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function Logo() {
+function Logo(props) {
     return (
         <div className='logo'>
 
-           LOGO
+            {props.mainTitle}
 
         </div>
     );

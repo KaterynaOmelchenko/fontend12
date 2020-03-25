@@ -4,11 +4,11 @@ import './App.css';
 import Logo from "./Logo";
 import MenuHeader from "./MenuHeader";
 
-function Header() {
+function Header(props) {
     return (
         <div className='header'>
 
-           <Logo/>
+           <Logo mainTitle = {props.mainTitle} />
            <MenuHeader/>
 
         </div>

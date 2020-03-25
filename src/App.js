@@ -7,12 +7,13 @@ import MenuHeader from "./MenuHeader";
 import Content from "./Content";
 
 function App() {
+    const mainTitle = 'PASV APP';
   return (
     <div className="App">
 
       <div className="container">
 
-        <Header/>
+        <Header mainTitle = {mainTitle}/>
 
         <Content/>
 
