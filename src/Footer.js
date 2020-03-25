@@ -1,15 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MenuFooter from "./MenuFooter";
+import FooterMenu from "./FooterMenu";
 import Contacts from "./Contacts";
 
-function Footer() {
+function Footer(props) {
     return (
         <div className='footer'>
 
-            <MenuFooter/>
-            <Contacts/>
+
+            <FooterMenu footer = {props.footer}/>
+
 
         </div>
     );

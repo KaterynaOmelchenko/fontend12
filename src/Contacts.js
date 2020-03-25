@@ -2,11 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function Contacts() {
+function Contacts(props) {
     return (
         <div className='contacts'>
 
-            Phone number: +1 425 999 6666
+            {props.footer.contacts}
 
         </div>
     );

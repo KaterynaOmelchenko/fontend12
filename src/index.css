@@ -23,22 +23,23 @@ code {
 
 .logo {
   display: inline-block;
-  background-color: brown;
   width: 100px;
   padding: 10px;
-  color: peachpuff;
+  color: darkslategray;
   float: left;
   margin-top: 8px;
+  font-size: x-large;
 }
 .header .menu {
-  background-color: darkgrey;
+
   display: inline-block;
   list-style-type: none;
   float: right;
+  font-size: x-large;
 }
 
 .footer {
-  background-color: #61dafb;
+  margin-top: 60px;
 }
 
 .footer .menu {
@@ -46,27 +47,21 @@ code {
 }
 
 .content {
-  background-color: yellow;
+  background-color: lightcyan;
   display: inline-block;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: large;
 }
 
 .header .menu li{
   float: left;
-  margin: 10px;
-  padding: 0;
-  list-style-type: none;
-}
-.footer .menu li{
-  background-color: aquamarine;
-  //display: inline-block;
-  margin-right: 70px;
+  margin: 15px;
   padding: 0;
   list-style-type: none;
 }
 
 .contacts {
   display: inline-block;
-  background-color: azure;
+  margin-left: 25px;
 }
